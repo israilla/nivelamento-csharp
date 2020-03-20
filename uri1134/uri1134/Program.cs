@@ -20,11 +20,11 @@ namespace uri1134 {
                 else if (tipo == 3) {
                     diesel = diesel + 1;
                 }
-
+                else {
+                    Console.WriteLine("Alcool: " + alcool);
+                }
                 tipo = int.Parse(Console.ReadLine());
             }
-
-            Console.WriteLine("MUITO OBRIGADO");
             Console.WriteLine("Alcool: " + alcool);
             Console.WriteLine("Gasolina: " + gasolina);
             Console.WriteLine("Diesel: " + diesel);
